@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Global.asax.cs](./CS/WebDocumentViewer_UserName/Global.asax.cs) (VB: [Global.asax.vb](./VB/WebDocumentViewer_UserName/Global.asax.vb))
+* [CustomPageInfoDataProvider.cs](./CS/WebDocumentViewer_UserName/Services/CustomPageInfoDataProvider.cs) (VB: [CustomPageInfoDataProvider.vb](./VB/WebDocumentViewer_UserName/Services/CustomPageInfoDataProvider.vb))
+* **[CustomWebDocumentViewerOperationLogger.cs](./CS/WebDocumentViewer_UserName/Services/CustomWebDocumentViewerOperationLogger.cs) (VB: [CustomWebDocumentViewerOperationLogger.vb](./VB/WebDocumentViewer_UserName/Services/CustomWebDocumentViewerOperationLogger.vb))**
+* [Index.cshtml](./CS/WebDocumentViewer_UserName/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # WebDocumentViewer - XRPageInfo with PageInfo.UserName display the name of a logged user
 
 

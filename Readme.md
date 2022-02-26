@@ -1,4 +1,4 @@
-# How to Display the Name of the Current Logged in User in a Report
+# Reporting for Web (ASP.NET MVC) - How to Display the Name of the Current Logged in User in a Report
 
 This example demonstrates how to use the [PageInfoDataProviderBase](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.PageInfoDataProviderBase) service to display information in the [XRPageInfo](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPageInfo) control.
 

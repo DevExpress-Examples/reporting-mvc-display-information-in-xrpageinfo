@@ -1,6 +1,7 @@
-﻿Imports System.Web.Mvc
+Imports System.Web.Mvc
 
 Namespace WebDocumentViewer_UserName.Controllers
+
     Public Class HomeController
         Inherits Controller
 

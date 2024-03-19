@@ -1,5 +1,7 @@
-﻿Namespace WebDocumentViewer_UserName.Reports
-    Partial Public Class XtraReport1
+Namespace WebDocumentViewer_UserName.Reports
+
+    Partial Class XtraReport1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,14 +12,14 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Designer generated code"
-
+'#Region "Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
@@ -28,11 +30,11 @@
             Me.BottomMargin = New DevExpress.XtraReports.UI.BottomMarginBand()
             Me.xrLabel1 = New DevExpress.XtraReports.UI.XRLabel()
             Me.xrPageInfo1 = New DevExpress.XtraReports.UI.XRPageInfo()
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me), System.ComponentModel.ISupportInitialize).BeginInit()
             ' 
             ' Detail
             ' 
-            Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() { Me.xrPageInfo1, Me.xrLabel1})
+            Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.xrPageInfo1, Me.xrLabel1})
             Me.Detail.Dpi = 100F
             Me.Detail.HeightF = 56.25F
             Me.Detail.Name = "Detail"
@@ -58,7 +60,7 @@
             ' xrLabel1
             ' 
             Me.xrLabel1.BorderColor = System.Drawing.Color.DarkRed
-            Me.xrLabel1.Borders = (CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide))
+            Me.xrLabel1.Borders = CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) Or DevExpress.XtraPrinting.BorderSide.Bottom)), DevExpress.XtraPrinting.BorderSide)
             Me.xrLabel1.BorderWidth = 3F
             Me.xrLabel1.Dpi = 100F
             Me.xrLabel1.Font = New System.Drawing.Font("Times New Roman", 14F)
@@ -75,7 +77,7 @@
             ' xrPageInfo1
             ' 
             Me.xrPageInfo1.BorderColor = System.Drawing.Color.DarkRed
-            Me.xrPageInfo1.Borders = (CType(((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right) Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide))
+            Me.xrPageInfo1.Borders = CType((((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right) Or DevExpress.XtraPrinting.BorderSide.Bottom)), DevExpress.XtraPrinting.BorderSide)
             Me.xrPageInfo1.BorderWidth = 3F
             Me.xrPageInfo1.Dpi = 100F
             Me.xrPageInfo1.Font = New System.Drawing.Font("Times New Roman", 14F)
@@ -91,22 +93,24 @@
             ' 
             ' XtraReport1
             ' 
-            Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() { Me.Detail, Me.TopMargin, Me.BottomMargin})
+            Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.Detail, Me.TopMargin, Me.BottomMargin})
             Me.Landscape = True
             Me.PageHeight = 504
             Me.PageWidth = 717
             Me.PaperKind = System.Drawing.Printing.PaperKind.B6Jis
             Me.Version = "16.2"
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
-
+            CType((Me), System.ComponentModel.ISupportInitialize).EndInit()
         End Sub
 
-        #End Region
-
+'#End Region
         Private Detail As DevExpress.XtraReports.UI.DetailBand
+
         Private TopMargin As DevExpress.XtraReports.UI.TopMarginBand
+
         Private BottomMargin As DevExpress.XtraReports.UI.BottomMarginBand
+
         Private xrPageInfo1 As DevExpress.XtraReports.UI.XRPageInfo
+
         Private xrLabel1 As DevExpress.XtraReports.UI.XRLabel
     End Class
 End Namespace

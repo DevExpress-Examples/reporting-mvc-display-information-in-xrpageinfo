@@ -57,7 +57,7 @@ namespace WebDocumentViewer_UserName.PredefinedReports
             this.xrLabel1.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel1.BorderWidth = 3F;
-            this.xrLabel1.Font = new System.Drawing.Font("Times New Roman", 14F);
+            this.xrLabel1.Font = new DevExpress.Drawing.DXFont("Times New Roman", 14F);
             this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(79.79164F, 39.16667F);
             this.xrLabel1.Name = "xrLabel1";
             this.xrLabel1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -74,7 +74,7 @@ namespace WebDocumentViewer_UserName.PredefinedReports
             this.xrPageInfo1.Borders = ((DevExpress.XtraPrinting.BorderSide)(((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrPageInfo1.BorderWidth = 3F;
-            this.xrPageInfo1.Font = new System.Drawing.Font("Times New Roman", 14F);
+            this.xrPageInfo1.Font = new DevExpress.Drawing.DXFont("Times New Roman", 14F);
             this.xrPageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(207.9166F, 39.16667F);
             this.xrPageInfo1.Name = "xrPageInfo1";
             this.xrPageInfo1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -91,7 +91,7 @@ namespace WebDocumentViewer_UserName.PredefinedReports
             this.TopMargin,
             this.BottomMargin,
             this.Detail});
-            this.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.Font = new DevExpress.Drawing.DXFont("Arial", 9.75F);
             this.Version = "21.2";
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 

@@ -45,7 +45,7 @@ Partial Public Class TestReport
         Me.xrLabel1.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
             Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
         Me.xrLabel1.BorderWidth = 3.0!
-        Me.xrLabel1.Font = New System.Drawing.Font("Times New Roman", 14.0!)
+        Me.xrLabel1.Font = New DevExpress.Drawing.DXFont("Times New Roman", 14.0!)
         Me.xrLabel1.LocationFloat = New DevExpress.Utils.PointFloat(79.79164!, 39.16667!)
         Me.xrLabel1.Name = "xrLabel1"
         Me.xrLabel1.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
@@ -62,7 +62,7 @@ Partial Public Class TestReport
         Me.xrPageInfo1.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right) _
             Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
         Me.xrPageInfo1.BorderWidth = 3.0!
-        Me.xrPageInfo1.Font = New System.Drawing.Font("Times New Roman", 14.0!)
+        Me.xrPageInfo1.Font = New DevExpress.Drawing.DXFont("Times New Roman", 14.0!)
         Me.xrPageInfo1.LocationFloat = New DevExpress.Utils.PointFloat(207.9166!, 39.16667!)
         Me.xrPageInfo1.Name = "xrPageInfo1"
         Me.xrPageInfo1.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
@@ -76,7 +76,7 @@ Partial Public Class TestReport
         'TestReport
         '
         Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.TopMargin, Me.BottomMargin, Me.Detail})
-        Me.Font = New System.Drawing.Font("Arial", 9.75!)
+        Me.Font = New DevExpress.Drawing.DXFont("Arial", 9.75!)
         Me.Version = "21.2"
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
